@@ -1,0 +1,39 @@
+// Adpated from "react-tabs/style/react-tabs.css";
+
+.tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs__tab-list-item {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs__trigger {
+  display: block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+
+  &.is-selected {
+    background: #fff;
+    border-color: #aaa;
+    color: black;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.tabs__panel {
+  &.is-hidden {
+    display:none;
+  }
+}
